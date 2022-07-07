@@ -1,0 +1,99 @@
+<! DOCTYPE html>
+<html lang="en" dir="ltr">
+    <main>
+
+
+  <head>
+    <meta charset="utf-8">
+        <title>Fun mini project</title>
+        <!--Using table and add a border around the cells-->
+        <style>
+          table, th, td {
+            border: 1px solid white;
+            border-collapse: separate;
+            padding: 10px;
+          }
+        th, td {
+            background-color: #A681B0;
+          }
+        </style>
+    </head>
+      </main>
+  <body style="font-family:Verdana;">
+<center>
+  <h1>My personal review for these Brewdog beers</h1>
+</center>
+<ul class="Beer">
+  <center>
+    <img src="beer.jpg" height="320px;">
+  </center>
+  <br>
+    <p>These were the beers that I have tried a while ago and just testing my own coding skill and using html to put my personal feel about these beer in a form!
+    Also, if you want to personally try some of these beers, you can check out the <a href="https://www.brewdog.com/uk">Brewdog site</a> </p>
+  <ul>
+    <li class="active">From right to left</li>
+    <li>Layer Cake</li>
+    <li>50 Cuts</li>
+    <li>Alice Porter</li>
+    <li>Velvet Cake</li>
+    <li>Tiramisu Crew</li>
+    <li>Dog I</li>
+  </ul>
+</ul>
+
+<table cellspacing="15">
+    <tr>
+      <th scope="col">Beer Name</th>
+      <th scope="col">Taste Profile</th>
+      <th scope="col">my personal review</th>
+    </tr>
+    <tr>
+        <td>Brewdog Layer Cake</td>
+        <td>Marshmallowy, chocolatey and vanille-ry</td>
+        <td>🌟🌟🌟🌟🌟</td>
+    </tr>
+    <tr>
+      <td>50 Cuts</td>
+      <td>tropical fruity, rather bitter and somewhat sweet</td>
+      <td>🌟🌟🌟</td>
+    </tr>
+    <tr>
+      <td>Alice Porter</td>
+      <td>somewhat smokey and quite a heavy stout</td>
+      <td>🌟🌟🌟</td>
+    </tr>
+    <tr>
+      <td>Velvet Cake</td>
+      <td>Sweet, caramel-y and strong</td>
+      <td>🌟🌟🌟🌟🌟</td>
+    </tr>
+    <tr>
+      <td>Tiramisu Crew</td>
+      <td>cakey, sweet and fairly heavy for a pastry stout</td>
+      <td>🌟🌟🌟🌟</td>
+    </tr>
+    <tr>
+      <td>Dog I</td>
+      <td>heavy, malty, generally a good stout but a bit pricy</td>
+      <td>🌟🌟🌟🌟</td>
+    </tr>
+</table>
+<br>
+<hr>
+<p>Which beer do would you prefer?</p>
+<form>
+<input type="radio" id="Layer Cake" name="fav_beer" value="Layer Cake">
+<label for = "Layer Cake">Layer Cake</label>
+<input type="radio" id="50 Cuts" name="fav_beer" value="50 Cuts">
+<label for="50 Cuts">50 Cuts</label>
+<input type="radio" id="Alice Porter" name="fav_beer" value="Alice Porter">
+<label for="Alice Porter">Alice Porter</label>
+<input type="radio" id="Velvet Cake" name="fav_beer" value="Velvet Cake">
+<label for="Velvet Cake">Velvet Cake</label>
+<input type="radio" id="Tiramisu Crew" name="fav_beer" value="Tiramisu Crew">
+<label for="Tiramisu Crew">Tiramisu Crew</label>
+<input type="radio" id="Dog I" name="fav_beer" value="Dog I">
+<label for="Dog I">Dog I</label>
+<input type="Button" name="Click" value="Submit">
+
+</form>
